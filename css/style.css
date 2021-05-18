@@ -7,6 +7,7 @@ body{
   padding: 0!important;
   border: none!important;
   display: block;
+  background-color: #FAFAFA;
   
 }
 
@@ -47,8 +48,8 @@ p h1 h2 h3 h4  h5 { margin: 0;
             display: grid;
             grid-template-columns: auto auto auto auto; 
             text-align: center; 
+            margin-bottom: 15px;
             
-            position:relative;
            
         }
   
@@ -60,13 +61,14 @@ p h1 h2 h3 h4  h5 { margin: 0;
     text-align: left;
     max-width: 103px;
     height: auto;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 10%;
  }       
 .middleDiv{
     /* to take off the border remove this */
     /* border: 2px solid rgb(164, 175, 7); */
     /* to take off the border remove this */
+    padding-top: 10%;
 }
 .empthyDiv{
     /* to take off the border remove this */
@@ -78,6 +80,7 @@ p h1 h2 h3 h4  h5 { margin: 0;
     /* border: 2px solid rgb(103, 107, 39); */
     /* to take off the border remove this */
     align-content: right;
+    padding-top: 10%;
 }
 
 .linkClass{
@@ -89,7 +92,7 @@ p h1 h2 h3 h4  h5 { margin: 0;
   background-color: #FAFAFA;
   display: inline-block;
   border: none;
-  padding: 5px 15px;
+  padding: 10px 15px;
   cursor: pointer;
   text-align: center;
   position:relative;
@@ -250,7 +253,7 @@ color: #F6F5F1;
 
 
 .featuredProjects{
-  
+  background-color: #FAFAFA;
   /*remove these to remove the colors */
   
   /*remove these to remove the colors */
@@ -296,6 +299,7 @@ color: #F6F5F1;
   }
     .logo {width: 50%;
     height: auto;
+    padding-top: 25%;
     
   }
 
@@ -315,14 +319,11 @@ color: #F6F5F1;
   }
   
 
-
- 
-
     .featuredProjects{
       display: grid;
-      grid-template-rows: 25% 25% 25%; 
+      grid-template-rows: auto; 
       /*remove these to remove the colors */
-      background-color: #ececec;
+     
       /*remove these to remove the colors */
       
       margin: 7px;
@@ -335,6 +336,7 @@ color: #F6F5F1;
     #logo {
       content: url("../images/Logo-Black.svg");
       min-width: 50px;
+      margin-top: 5px;
     }
 
 
@@ -349,7 +351,7 @@ color: #F6F5F1;
   /* phones: */
   .navigation {
     width: 100%;
-    margin: 0;
+    margin: 10px;
 
   }
   .sitemap {
@@ -362,10 +364,11 @@ color: #F6F5F1;
 
   .featuredProjects{
     display: grid;
-    grid-template-columns: 1fr 1fr  1fr ; 
+    grid-template-columns: 1fr 1fr  1fr ;
+    grid-template-rows: auto; 
     column-gap: 3%;
     /* to take off the border remove this */
-    background-color: rgb(255, 255, 255);
+   
      /* to take off the border remove this */
 
 
