@@ -2,6 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+.js-reveal {
+  opacity: 1;
+  transition: opacity .7s ease-in, margin-top .7s ease-out;
+}
+
+.js-reveal--hidden {
+  opacity: 0;
+  margin-top: 3em;}
+  
+script {
+  display: none;
+}
+
 body{
   margin: 0!important;
   padding: 0!important;
