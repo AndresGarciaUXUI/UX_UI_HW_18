@@ -47,8 +47,9 @@ p h1 h2 h3 h4  h5 { margin: 0;
             /* border: 2px solid rgb(238, 255, 0); */
             display: grid;
             grid-template-columns: auto auto auto auto; 
+            grid-template-rows: auto auto auto;
             text-align: center; 
-            margin-bottom: 15px;
+            
             
            
         }
@@ -274,13 +275,38 @@ color: #F6F5F1;
 .projectContainer h1 {
   font-family: 'DM Serif Display', serif;
   margin: 0;
-  padding-top: 10%;
+  padding-top: 1%;
   padding-left: 10%;
   padding-right: 20%;
   padding-bottom: 1%;
   font-size: calc(35px + (90 - 35) * ((100vw - 300px) / (1240 - 300)));
   line-height: calc(35px + (95 - 35) * ((100vw - 300px) / (1240 - 300)));
   
+}
+
+
+.carouselProject1-Heading {
+  font-family: 'DM Serif Display', serif !important;
+  margin: 0;
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-bottom: 1%;
+  font-size: calc(35px + (90 - 35) * ((100vw - 300px) / (1240 - 300)));
+  line-height: calc(35px + (95 - 35) * ((100vw - 300px) / (1240 - 300)));
+  color: #FD5258; 
+  text-align: left;
+  
+}
+
+.carouselProject-P{
+  text-align: left!important;
+  
+}
+
+.carouselIndicatorCustom{
+  display: inline-block;
+  color: #FD5258;
 }
 
 .projectContainer p {
@@ -296,6 +322,8 @@ color: #F6F5F1;
   .navigation {
     margin: 7px;
     min-width: 280px;
+    height: 12vh;
+    
   }
     .logo {width: 50%;
     height: auto;
@@ -312,10 +340,10 @@ color: #F6F5F1;
   .projectContainer h1 {
     font-family: 'DM Serif Display', serif;
     margin: 0;
-    padding-top: 15%;
+    padding-top: 8%;
     padding-left: 10%;
     padding-right: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
   }
   
 
@@ -427,4 +455,11 @@ color: #F6F5F1;
 .projectImage{
   width: 100%;
   height: auto;
+}
+
+
+.carousel-Custom-Image{
+  width: 70%;
+  height: auto;
+
 }
